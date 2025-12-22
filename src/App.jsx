@@ -1,19 +1,22 @@
-import React from "react";
+
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import HowItHelps from "./components/HowItHelps/HowItHelps";
-import Uses from "./components/Uses/Uses";
-import Trust from "./components/Trust/Trust";
 import Footer from "./components/Footer/Footer";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <main className="overflow-x-hidden ">
       <Navbar />
-      <Hero />
-      <HowItHelps />
-      <Uses />
-      <Trust />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog/>} />
+      </Routes>
       <Footer />
     </main>
   );

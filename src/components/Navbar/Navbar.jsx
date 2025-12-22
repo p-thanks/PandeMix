@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,25 +18,24 @@ const Navbar = () => {
         {/* Navlinks section */}
         <ul className="hidden md:flex items-center gap-10 md:text-base text-sm">
           <li>
-            <a href="#">Products</a>
+            <Link to="/">Products</Link>
           </li>
           <li>
-            <a href="#">Custome Stories</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Blogs</a>
+            <Link to="/blog">Blogs</Link>
           </li>
         </ul>
         {/* Button section */}
-        <div>
-          <button className="border border-gray-400 px-4 py-2 rounded-lg hover:bg-primary hover:text-white transform duration-300">
-            {" "}
-            Get in touch
-          </button>
-        </div>
+        <Link>
+          <div>
+            <button className="border border-gray-400 px-4 py-2 rounded-lg hover:bg-primary hover:text-white transform duration-300">
+              {" "}
+              Contact Us
+            </button>
+          </div>
+        </Link>
       </div>
     </motion.header>
   );
