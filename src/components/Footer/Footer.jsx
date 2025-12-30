@@ -1,6 +1,5 @@
-import React from "react";
 import Logo from "../../assets/logo.png";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -9,17 +8,17 @@ const Footer = () => {
       <div className="container py-20 flex flex-col md:flex-row md:items-center justify-between gap-10">
         {/* brand info */}
         <div className="space-y-4">
-          <img src={Logo} alt="" className="w-40" />
+          <img src={Logo} alt="PandeMix" className="w-40" />
           <p className="text-gray-400 xl:max-w-[400px]">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-            voluptatum ut molestiae facere.
+            PandeMix empowers communities with accessible health information and AI-driven diagnostic tools. 
+            Your trusted partner in early COVID-19 detection, prevention strategies, and comprehensive wellness guidance for a healthier, safer tomorrow.
           </p>
         </div>
         {/* social icons */}
         <div className="flex space-x-6 text-3xl">
-          <FaFacebook className="hover:text-primary duration-200" />
-          <FaInstagram className="hover:text-primary duration-200" />
-          <FaLinkedin className="hover:text-primary duration-200" />
+          <Facebook className="hover:text-primary duration-200 cursor-pointer" size={28} />
+          <Instagram className="hover:text-primary duration-200 cursor-pointer" size={28} />
+          <Linkedin className="hover:text-primary duration-200 cursor-pointer" size={28} />
         </div>
       </div>
     </motion.footer>

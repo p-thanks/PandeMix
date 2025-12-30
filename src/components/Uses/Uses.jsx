@@ -1,4 +1,3 @@
-import React from "react";
 import Img1 from "../../assets/uses/1.png";
 import Img2 from "../../assets/uses/2.png";
 import Img3 from "../../assets/uses/3.png";
@@ -18,14 +17,13 @@ const Uses = () => {
            flex flex-col justify-center xl:pr-14"
           >
             <h1 className="text-3xl font-bold text-darkBlue">
-              How it Helps people
+              How PandeMix Helps You
             </h1>
             <p className=" text-gray-400 mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-              esse ab natus.
+              Our AI-powered platform provides fast, accurate COVID-19 diagnostics and comprehensive health guidance to keep you and your loved ones safe.
             </p>
             <p className="text-sm text-gray-400 mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+              Get instant symptom analysis, personalized recommendations, and access to trusted medical resources.{" "}
               <a href="#" className="text-primary">
                 Learn More
               </a>

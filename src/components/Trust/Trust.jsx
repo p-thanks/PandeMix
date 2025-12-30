@@ -1,4 +1,3 @@
-import React from "react";
 import Icon1 from "../../assets/icon1.png";
 import Icon2 from "../../assets/icon2.png";
 import { motion } from "framer-motion";
