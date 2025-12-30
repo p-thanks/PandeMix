@@ -20,7 +20,7 @@ const HowItHelps = () => {
                 <Card
                   icon={Icon1}
                   heading="Symptoms"
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
+                  text="Track and analyze COVID-19 symptoms in real-time with our AI-powered assessment tool for accurate early detection."
                 />
               </motion.div>
               <motion.div
@@ -31,7 +31,7 @@ const HowItHelps = () => {
                 <Card
                   icon={Icon2}
                   heading="Recommendations"
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
+                  text="Receive personalized health guidance and actionable steps based on your symptoms and risk factors."
                 />
               </motion.div>
               <motion.div
@@ -41,8 +41,8 @@ const HowItHelps = () => {
               >
                 <Card
                   icon={Icon3}
-                  heading="Local information"
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
+                  heading="Local Information"
+                  text="Access up-to-date testing locations, healthcare facilities, and pandemic statistics in your area."
                 />
               </motion.div>
             </div>
@@ -54,14 +54,13 @@ const HowItHelps = () => {
             className="flex flex-col xl:justify-center xl:pr-14"
           >
             <h1 className="text-3xl font-bold text-darkBlue">
-              How it Helps people
+              How PandeMix Helps You Stay Safe
             </h1>
             <p className=" text-gray-400 mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-              esse ab natus.
+              Our comprehensive platform combines AI diagnostics, expert medical guidance, and real-time data to protect your health.
             </p>
             <p className="text-sm text-gray-400 mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+              From symptom checking to finding nearby testing centers, we provide everything you need in one place.{" "}
               <a href="#" className="text-primary">
                 Learn More
               </a>
